@@ -30,13 +30,24 @@
             placeholder="Enter Item"
           />
         </div>
+        <!--Select input-->
+        <select name="priority" id="priority-input" class="form-input">
+          <option value="0">Select Priority</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <input type="checkbox" name="" id="checkbox"/>
+        Recurring Item
+
+
         <div class="form-control">
           <button type="submit" class="btn">
             <i class="fa-solid fa-plus"></i> Add Item
           </button>
         </div>
       </form>
-
+        <a href="https://www.google.com">google.com</a>
       <div class="filter">
         <input
           type="text"
@@ -47,7 +58,7 @@
       </div>
 
       <ul id="item-list" class="items">
-        <!-- <li>
+        <!--<li>
           Apples
           <button class="remove-item btn-link text-red">
             <i class="fa-solid fa-xmark"></i>
@@ -70,7 +81,7 @@
           <button class="remove-item btn-link text-red">
             <i class="fa-solid fa-xmark"></i>
           </button>
-        </li> -->
+        </li>-->
       </ul>
 
       <button id="clear" class="btn-clear">Clear All</button>
